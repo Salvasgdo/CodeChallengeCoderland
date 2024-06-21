@@ -1,3 +1,10 @@
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "commonjs",
+    "target": "es6",
+    "esModuleInterop": true,
+    "lib": ["dom", "es6"],
+    "strict": true,
+  }
 }
